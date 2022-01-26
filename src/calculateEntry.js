@@ -8,17 +8,15 @@ const count = (entrants) => {
   return obj;
 };
 function countEntrants(entrants) {
-  return entrants.map((elem) => {
-    if (elem === undefined) {
-      return 0;
-    }
-    if (entrants.length === 0) {
-      return {};
-    }
-    return count(entrants);
-  })[0];
+  if (entrants === undefined) {
+    return 0;
+  }
+  if (entrants.length === undefined) {
+    return 0;
+  }
+  return count(entrants);
 }
-// console.log(countEntrants(array));
+console.log(countEntrants({}));
 function calculateEntry(entrants) {
   let total = 0;
   const objKey = Object.keys(countEntrants(entrants));
