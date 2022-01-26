@@ -16,5 +16,5 @@ function getRelatedEmployees(managerId) {
     throw new Error('O id inserido não é de uma pessoa colaboradora gerente!');
   }
 }
-console.log(getRelatedEmployees());
+
 module.exports = { isManager, getRelatedEmployees };
