@@ -58,6 +58,5 @@ function getAnimalMap(options) {
   }
   return func;
 }
-console.log(getAnimalMap({ includeNames: true, sex: 'male', sorted: true }));
 
 module.exports = getAnimalMap;
