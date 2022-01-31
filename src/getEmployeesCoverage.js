@@ -52,13 +52,6 @@ const generic = () => {
     }));
 };
 
-// const erro = (obj) => {
-//   const verify = data.employees
-//     .some((elem) => elem.firstName === obj || elem.lastName === obj || elem.id === obj);
-//   return verify;
-// };
-// console.log(erro('Sharonda'));
-
 function getEmployeesCoverage(obj) {
   try {
     if (!obj) {
