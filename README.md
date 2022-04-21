@@ -1,7 +1,8 @@
 ## Habilidades
 
 - Utilizei _Higher Order Functions_ 
-### O que deverá ser desenvolvido
+
+### O que foi desenvolvido
 
 Implementei várias funções utilizando `Higher Order Functions`
 
